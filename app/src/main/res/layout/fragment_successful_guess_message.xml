@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:exported="true"
+    android:id="@+id/fragment_successful_guess_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/success_or_fail_imageView"
+
+        app:srcCompat="@drawable/ic_clap"
+
+        android:layout_width="@dimen/image_congratulations_size"
+        android:layout_height="@dimen/image_congratulations_size"
+
+        app:layout_constraintBottom_toTopOf="@+id/congratulation_or_oh_no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/congratulation_or_oh_no"
+
+        android:textSize="@dimen/big_header_size"
+        android:text="@string/success_big_message"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/song_master_or_next_time"
+
+        android:textSize="@dimen/average_header_size"
+        android:text="@string/success_small_message"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="@id/congratulation_or_oh_no"
+        app:layout_constraintEnd_toEndOf="@id/congratulation_or_oh_no"
+        app:layout_constraintTop_toBottomOf="@id/congratulation_or_oh_no" />
+
+    <Button
+        android:id="@+id/back_to_library_button"
+
+        android:text="@string/song_library_button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/congratulation_or_oh_no" />
+</androidx.constraintlayout.widget.ConstraintLayout>

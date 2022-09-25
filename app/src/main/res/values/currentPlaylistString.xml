@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_song1_artist">Kygo &amp; Whitney Houston</string>
+    <string name="current_song1_title">Higher Love</string>
+    <string name="current_song1_lyric">Things look so bad everywhere
+        In this whole world, what is fair?
+        We walk the line and try to see
+        Falling behind in what could be, oh</string>
+
+    <string name="current_song2_artist">Headie One</string>
+    <string name="current_song2_title">Both</string>
+    <string name="current_song2_lyric">T house up north or near the coast, rudeboy, there\’s both
+        Spend this bread on jewels or spend it on smoke
+        Man spend it on both</string>
+
+    <string name="current_song3_artist">Joel Corry</string>
+    <string name="current_song3_title">Sorry</string>
+    <string name="current_song3_lyric">I didn\'t know how much I really miss you
+        I can see my whole world changing
+        There\'s no need to live if I can\'t be with you</string>
+
+    <string name="current_song4_artist">AJ Tracey</string>
+    <string name="current_song4_title">Ladbroke Grove</string>
+    <string name="current_song4_lyric">No one knows the pain
+        No one sees what I see in you
+        No one feels the same
+        No one sees myself like you do</string>
+
+    <string name="current_song5_artist">Aitch</string>
+    <string name="current_song5_title">Taste (Make It Shake)</string>
+    <string name="current_song5_lyric">Show \'em, baby, how you flex and make it shake
+        All that back and pretty face
+        Girl, I\'m tryna get a taste
+        I\'m just bopping give a fuck who\'s in the place</string>
+
+    <string name="current_song6_artist">Ariana Grande</string>
+    <string name="current_song6_title">Don\'t Call Me Angel</string>
+    <string name="current_song6_lyric">Boy, don\'t call me angel
+        You ain\'t got me right
+        Don\'t call me angel
+        You can\'t pay my price</string>
+
+    <string name="current_song7_artist">Post Malone</string>
+    <string name="current_song7_title">Goodbeys</string>
+    <string name="current_song7_lyric">I want you out of my head
+        I want you out of my bedroom tonight (Bedroom)
+        There\'s no way I could save you (Save you)</string>
+
+    <string name="current_song8_artist">Tones and I</string>
+    <string name="current_song8_title">Dance Monkey</string>
+    <string name="current_song8_lyric">They say
+        Move for me, move for me, move for me, ayy-ayy-ayy
+        And when you\’re done,
+        I\'ll make you do it all again</string>
+
+    <string name="current_song9_artist">Sam Smith</string>
+    <string name="current_song9_title">How Do You Sleep?</string>
+    <string name="current_song9_lyric">All that fear and all that pressure
+        I\'m hopin\' that my love will keep you up tonight</string>
+
+    <string name="current_song10_artist">Ed Sheeran</string>
+    <string name="current_song10_title">Take Me Back to London</string>
+    <string name="current_song10_lyric">Jet plane headed up to the sky (To the sky)
+        Spread wings in the clouds, getting high (Getting high)
+        We ain\'t hit a rave in a while (In a while)</string>
+
+    <string name="current_song11_artist">Lil Tecca</string>
+    <string name="current_song11_title">Ransom</string>
+    <string name="current_song11_lyric">I got black, I got white, what you want?
+        Hop outside a
+        Ghost and hop up in a Phantom
+        I know I\'m \’bout to blow,
+        I ain\'t dumb</string>
+
+    <string name="current_song12_artist">Young T &amp; Bugsey</string>
+    <string name="current_song12_title">Strike A Pose</string>
+    <string name="current_song12_lyric">Cause your body wanna move yah know
+        Uptight, just loosen up
+        MacDaddy with the juice yah know</string>
+
+    <string name="current_song13_artist">Jorja Smith</string>
+    <string name="current_song13_title">Be Honest</string>
+    <string name="current_song13_lyric">You want this (You want it)
+        But I can be heartless
+        Regardless of my conscience</string>
+
+    <string name="current_song14_artist">Regard</string>
+    <string name="current_song14_title">Ride It</string>
+    <string name="current_song14_lyric">It\'s  been a month and twenty days
+        And we\'re going \'round and \'round, playing silly games
+        Now you\'re saying, slow it down, not right now</string>
+
+    <string name="current_song15_artist">Post Malone</string>
+    <string name="current_song15_title">Circles</string>
+    <string name="current_song15_lyric">Run away, run away I dare you to do something
+        I\'m  waiting on you again, so I don\'t take the blame</string>
+
+    <string name="current_song16_artist">Dermot Kennedy</string>
+    <string name="current_song16_title">Outnumbered</string>
+    <string name="current_song16_lyric">Don\'t tell me this is all for nothin\'
+        I can only tell you one thing
+        On the nights you feel outnumbered
+        Baby, I\'ll be out there somewhere</string>
+
+    <string name="current_song17_artist">Dominic Fike</string>
+    <string name="current_song17_title">3 Nights</string>
+    <string name="current_song17_lyric">Call me what you want, when you want, if you want
+        And you can call me names if you call me up</string>
+
+    <string name="current_song18_artist">Dave</string>
+    <string name="current_song18_title">Professor X</string>
+    <string name="current_song18_lyric">Tweakin\', tweakin\' 120 on the M-way,
+        speedin\' LV hat, backpack, and sneakers
+        Any girl that I\'m with is a ten</string>
+
+    <string name="current_song19_artist">Sam Feldt</string>
+    <string name="current_song19_title">Post Malone</string>
+    <string name="current_song19_lyric">Yeah, we are never, ever going home tonight
+        Ain\'t nobody kill my vibe
+        Don\'t tell me to go-o-o</string>
+
+    <string name="current_song20_artist">Shawn Mendes &amp; Camila Cabello</string>
+    <string name="current_song20_title">Señorita</string>
+    <string name="current_song20_lyric">I wish I could pretend I didn\'t need ya
+        But every touch is ooh-la-la-la
+        It\'s true, la-la-la</string>
+</resources>

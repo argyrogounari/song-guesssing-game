@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="classic_song1_artist">Led Zeppelin</string>
+    <string name="classic_song1_title">Stairway to Heaven</string>
+    <string name="classic_song1_lyric">And as we wind on down the road
+        Our shadows taller than our soul
+        There walks a lady we all know
+        Who shines white light and wants to show</string>
+
+    <string name="classic_song2_artist">John Lennon</string>
+    <string name="classic_song2_title">Imagine</string>
+    <string name="classic_song2_lyric">You may say I\'m a dreamer
+        But I\'m not the only one
+        I hope some day you\'ll join us
+        And the world will be as one</string>
+
+    <string name="classic_song3_artist">Nirvana</string>
+    <string name="classic_song3_title">Smells Like Teen Spirit</string>
+    <string name="classic_song3_lyric">Here we are now, entertain us
+        I feel stupid and contagious
+        Here we are now, entertain us</string>
+
+    <string name="classic_song4_artist">Eagles</string>
+    <string name="classic_song4_title">Hotel California</string>
+    <string name="classic_song4_lyric">She got a lot of pretty, pretty boys
+        She calls friends How they dance in the courtyard
+        Sweet summer sweat</string>
+
+    <string name="classic_song5_artist">The Beatles</string>
+    <string name="classic_song5_title">Hey Jude</string>
+    <string name="classic_song5_lyric">Don\'t carry the world upon your shoulders
+        For well you know that it\'s a fool who plays it cool
+        By making his world a little colder</string>
+
+    <string name="classic_song6_artist">Guns N’ Roses</string>
+    <string name="classic_song6_title">Sweet Child O’ Mine</string>
+    <string name="classic_song6_lyric">She\'s got eyes of the bluest skies
+        As if they thought of rain
+        I hate to look into those eyes and see an ounce of pain</string>
+
+    <string name="classic_song7_artist">The Rolling Stones</string>
+    <string name="classic_song7_title">I Can Get No Satisfaction</string>
+    <string name="classic_song7_lyric">When I\'m driving in my car
+        And that man comes on the radio
+        And he\'s telling me more and more
+        About some useless information
+        Supposed to fire my imagination</string>
+
+    <string name="classic_song8_artist">Judy Garland</string>
+    <string name="classic_song8_title">Over the Rainbow</string>
+    <string name="classic_song8_lyric">Someday I\'ll wish upon a star
+        And wake up where the clouds are far
+        Behind me Where troubles melt like lemon drops</string>
+
+    <string name="classic_song9_artist">The Kinks</string>
+    <string name="classic_song9_title">Waterloo Sunset</string>
+    <string name="classic_song9_lyric">Dirty old river, must you keep rolling
+        Flowing into the night
+        People so busy, make me feel dizzy</string>
+
+    <string name="classic_song10_artist">Elton John</string>
+    <string name="classic_song10_title">Your Song</string>
+    <string name="classic_song10_lyric">I hope you don\'t mind, I hope you don\'t mind
+        That I put down in words
+        How wonderful life is
+        while you\'re in the world</string>
+
+    <string name="classic_song11_artist">Bob Dylan</string>
+    <string name="classic_song11_title">Like a Rolling Stone</string>
+    <string name="classic_song11_lyric">How does it feel?
+        How does it feel?
+        To be without a home?
+        Like a complete unknown?</string>
+
+    <string name="classic_song12_artist">Michael Jackson</string>
+    <string name="classic_song12_title">Billie Jean</string>
+    <string name="classic_song12_lyric">She says I am the one (Oh, baby)
+        But the kid is not my son
+        (Hee-hee-hee, no-no-no, hee-hee-hee) Hoo!</string>
+
+    <string name="classic_song13_artist">Whitney Houston</string>
+    <string name="classic_song13_title">I Will Always Love You</string>
+    <string name="classic_song13_lyric">Bittersweet memories
+        That is all I\'m taking with me
+        So good-bye Please don\'t cry</string>
+
+    <string name="classic_song14_artist">The Clash</string>
+    <string name="classic_song14_title">London Calling</string>
+    <string name="classic_song14_lyric">The ice age is coming, the sun\'s zoomin\' in
+        Meltdown expected, the wheat is growin\'
+        thin Engines stop running,
+        but I have no fear</string>
+
+    <string name="classic_song15_artist">Sex Pistols</string>
+    <string name="classic_song15_title">God Save the Queen</string>
+    <string name="classic_song15_lyric">When there\'s no future, how can there be sin
+        We\'re the flowers in the dustbin
+        We\'re the poison in your human machine</string>
+
+    <string name="classic_song16_artist">U2</string>
+    <string name="classic_song16_title">One</string>
+    <string name="classic_song16_lyric">Well, it\'s too late tonight
+        To drag the past out into the light
+        We\'re one, but we\'re not the same
+        We get to carry each other, carry each other</string>
+
+    <string name="classic_song17_artist">Queen</string>
+    <string name="classic_song17_title">Bohemian Rhapsody</string>
+    <string name="classic_song17_lyric">Mama, just killed a man
+        Put a gun against his head,
+        pulled my trigger,
+        now he\'s dead</string>
+
+    <string name="classic_song18_artist">Oasis</string>
+    <string name="classic_song18_title">Live Forever</string>
+    <string name="classic_song18_lyric">Maybe I just wanna fly Wanna live,
+        I don\'t wanna die
+        Maybe I just wanna breathe
+        Maybe I just don\'t believe</string>
+
+    <string name="classic_song19_artist">David Bowie</string>
+    <string name="classic_song19_title">Life on Mars?</string>
+    <string name="classic_song19_lyric">Sailors fighting in the dance hall
+        Oh man! Look at those cavemen go
+        It\'s the freakiest show</string>
+</resources>

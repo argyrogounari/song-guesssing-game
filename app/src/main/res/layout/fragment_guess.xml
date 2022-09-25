@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:exported="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <include
+        android:id="@+id/successful_guess_message"
+
+        layout="@layout/fragment_successful_guess_message"
+        android:visibility="invisible"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/guessing_page"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/lyric_text"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/header_size"
+            tool:text="Mama, just killed a man
+                       Put a gun against his head,
+                       pulled my trigger,
+                       now he\'s dead"
+
+            android:padding="@dimen/regular_subtitle__size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/random_answer_button1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/random_answer_button1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+            android:focusable="true"
+            tool:text="ONE"
+
+            android:layout_marginRight="@dimen/margin_start_end"
+            android:layout_marginEnd="@dimen/margin_start_end"
+            android:layout_marginLeft="@dimen/margin_start_end"
+            android:layout_marginStart="@dimen/margin_start_end"
+
+            app:layout_constraintStart_toStartOf="@id/random_answer_button2"
+            app:layout_constraintBottom_toTopOf="@id/random_answer_button2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/random_answer_button2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+            android:focusable="true"
+            tool:text="TWO"
+
+            android:layout_marginRight="@dimen/margin_start_end"
+            android:layout_marginEnd="@dimen/margin_start_end"
+            android:layout_marginLeft="@dimen/margin_start_end"
+            android:layout_marginStart="@dimen/margin_start_end"
+            app:layout_constraintStart_toStartOf="@id/random_answer_button3"
+            app:layout_constraintBottom_toTopOf="@id/random_answer_button3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/random_answer_button3"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+            android:focusable="true"
+            tool:text="THREE"
+
+            android:layout_marginRight="@dimen/margin_start_end"
+            android:layout_marginEnd="@dimen/margin_start_end"
+            android:layout_marginLeft="@dimen/margin_start_end"
+            android:layout_marginStart="@dimen/margin_start_end"
+            app:layout_constraintStart_toStartOf="@id/random_answer_button4"
+            app:layout_constraintBottom_toTopOf="@id/random_answer_button4" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/random_answer_button4"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+            android:focusable="true"
+            tool:text="FOUR"
+
+            android:layout_marginRight="@dimen/margin_start_end"
+            android:layout_marginEnd="@dimen/margin_start_end"
+            android:layout_marginLeft="@dimen/margin_start_end"
+            android:layout_marginStart="@dimen/margin_start_end"
+            android:layout_marginBottom="@dimen/guess_buttons_margin_bottom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

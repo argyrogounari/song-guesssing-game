@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:exported="true"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_card_view"
+    app:cardCornerRadius="@dimen/corner_radius_card_view"
+    style="@style/Widget.MaterialComponents.CardView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pinkish" >
+
+        <TextView
+            android:id="@+id/guess_or_view_button"
+
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/big_subtitle__size"
+            tool:text="GUESS"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/album_cover" />
+
+        <TextView
+            android:id="@+id/song_id"
+
+            android:visibility="invisible"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toEndOf="@+id/album_cover"
+            app:layout_constraintTop_toTopOf="@+id/album_cover" />
+
+        <TextView
+            android:id="@+id/song_title"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/header_size"
+            android:textColor="@color/black"
+            tool:text="Unknown Song"
+
+            android:layout_marginStart="@dimen/margin_start_end"
+            android:layout_marginLeft="@dimen/margin_start_end"
+            app:layout_constraintStart_toEndOf="@+id/album_cover"
+            app:layout_constraintTop_toTopOf="@+id/album_cover" />
+
+        <TextView
+            android:id="@+id/song_artist"
+
+            android:layout_marginTop="@dimen/margin_start_end"
+            android:textSize="@dimen/small_subtitle__size"
+            tool:text="Unknown Artist"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="@+id/song_title"
+            app:layout_constraintTop_toBottomOf="@+id/song_title" />
+
+        <ImageView
+            android:id="@+id/album_cover"
+
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            tool:srcCompat="@drawable/ic_default_album_cover"
+
+            android:layout_width="@dimen/album_image_card_view_size"
+            android:layout_height="@dimen/album_image_card_view_size"
+
+            android:layout_marginStart="@dimen/margin_start_end"
+            android:layout_marginLeft="@dimen/margin_start_end"
+            android:layout_marginTop="@dimen/margin_start_end"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

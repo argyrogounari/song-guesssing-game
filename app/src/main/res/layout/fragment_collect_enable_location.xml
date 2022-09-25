@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:exported="true"
+    android:id="@+id/enable_location_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true" >
+
+    <TextView
+        android:id="@+id/background"
+
+        android:alpha="0.9"
+        android:background="@color/black"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/location_image"
+
+        android:contentDescription="@string/earth_drawable_description"
+        android:src="@drawable/ic_earth"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:scaleType="fitXY"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:layout_marginTop="@dimen/earth_image_margin_top"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/ask_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ask_location"
+
+        android:text="@string/location_turned_off_message"
+        android:textColor="@color/white"
+        android:textSize="@dimen/header_size"
+        app:fontFamily="sans-serif-black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/reason_for_location"
+
+        android:text="@string/location_usage_message"
+        android:textColor="@color/white"
+        android:textSize="@dimen/small_subtitle__size"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/earth_image_margin_top"
+        android:gravity="center"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintEnd_toEndOf="@id/ask_location"
+        app:layout_constraintStart_toStartOf="@id/ask_location"
+        app:layout_constraintTop_toBottomOf="@id/ask_location" />
+
+    <Button
+        android:id="@+id/enable_location_button"
+
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="@string/location_settings_button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:padding="@dimen/location_button_padding"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reason_for_location" />
+</androidx.constraintlayout.widget.ConstraintLayout>

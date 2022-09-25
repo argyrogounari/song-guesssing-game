@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Song Guessing Game</string>
+
+    // menu/bottom_nav_menu
+    <string name="title_home">Home</string>
+    <string name="title_collect">Collect</string>
+    <string name="title_favourites">Favourites</string>
+
+    // ui/collect/CollectFragment.kt
+    <string name="ask_for_location">Please allow location use</string>
+
+    // layout/fragment_home.xml
+    <string name="current_header">CURRENT</string>
+    <string name="classic_header">CLASSIC</string>
+
+    // layout/fragment_collect_enable_location.xml
+    <string name="earth_drawable_description">Earth with a pin</string>
+    <string name="location_turned_off_message">Location permissions are turned \noff</string>
+    <string name="location_usage_message">Location is used to collect lyrics from your area</string>
+    <string name="location_settings_button">Enable Location</string>
+
+    // SharedPreferences
+    <string name="preference_file_key">Preferences file key</string>
+    <string name="version_code">The version the app is currently on</string>
+    <string name="first_time_app_used">Is the app used for the first time</string>
+
+    // MainActivity->Work Request
+    <string name="new_markers">Generates new random markers</string>
+
+    // Action Bar titles
+    <string name="songs">songs</string>
+    <string name="guess_the_song">Guess the song</string>
+
+    // CollectedSongsListFragment
+    <string name="guess_button">GUESS</string>
+    <string name="view_button">VIEW</string>
+
+    // GuessFragment
+    <string name="fail_big_message">Ohh no!!</string>
+    <string name="fail_small_message">Better luck next time</string>
+    <string name="success_big_message">Congratulation!!</string>
+    <string name="success_small_message">You are the song master</string>
+    <string name="song_library_button">Song Library</string>
+
+    // GoogleMapHelper
+    <string name="collect_dialog_title"> playlist lyric</string>
+    <string name="collect_dialog_message">Do you want to collect this lyric?</string>
+    <string name="collect_dialog_collect_button">COLLECT</string>
+    <string name="collect_dialog_cancel_button">CANCEL</string>
+    <string name="collect_toast_message_collected">Song lyric collected</string>
+    <string name="collect_toast_message_cancelled">Cancelled</string>
+
+    // SongCollectionRecyclerViewAdapter
+    <string name="song_view_button">VIEW</string>
+    <string name="song_guess_button">GUESS</string>
+    <string name="unknown_song_title">Unknown Song</string>
+    <string name="unknown_song_artists">Unknown Artists</string>
+</resources>

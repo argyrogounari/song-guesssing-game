@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:exported="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/song_title"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        tools:text="Title"
+        android:textSize="@dimen/header_size"
+        android:textStyle="bold"
+
+        android:layout_marginTop="@dimen/margin_start_end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/song_artists"
+
+        tools:text="Song Artists"
+        android:textSize="@dimen/regular_subtitle__size"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="@id/song_title"
+        app:layout_constraintEnd_toEndOf="@id/song_title"
+        app:layout_constraintTop_toBottomOf="@id/song_title" />
+
+    <ImageView
+        android:id="@+id/song_album_cover"
+
+        android:layout_marginTop="@dimen/regular_subtitle__size"
+        tools:srcCompat="@drawable/ic_default_album_cover"
+
+        android:layout_width="@dimen/album_image_card_info_page"
+        android:layout_height="@dimen/album_image_card_info_page"
+
+        app:layout_constraintTop_toBottomOf="@id/song_artists"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/song_lyric"
+
+        android:textSize="@dimen/regular_subtitle__size"
+        tools:text="Well, it\'s too late tonight
+        To drag the past out into the light
+        We\'re one, but we\'re not the same
+        We get to carry each other, carry each other"
+
+        android:layout_width="@dimen/album_image_card_info_page"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="@dimen/margin_start_end"
+        app:layout_constraintEnd_toEndOf="@+id/song_album_cover"
+        app:layout_constraintStart_toStartOf="@+id/song_album_cover"
+        app:layout_constraintTop_toBottomOf="@id/song_album_cover" />
+
+    <ImageView
+        android:id="@+id/heart_invisible_button"
+
+        android:layout_width="@dimen/album_image_card_view_size"
+        android:layout_height="@dimen/album_image_card_view_size"
+
+        android:padding="@dimen/regular_subtitle__size"
+        app:layout_constraintVertical_bias="0.094"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/song_lyric"
+        app:layout_constraintStart_toStartOf="@+id/song_lyric"
+        app:layout_constraintTop_toBottomOf="@id/song_lyric" />
+
+    <ImageView
+        android:id="@+id/heart_black"
+
+        app:srcCompat="@drawable/ic_heart_black"
+        android:visibility="invisible"
+
+        android:layout_width="@dimen/album_image_card_view_size"
+        android:layout_height="@dimen/album_image_card_view_size"
+
+        android:padding="@dimen/regular_subtitle__size"
+        app:layout_constraintVertical_bias="0.094"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/song_lyric"
+        app:layout_constraintStart_toStartOf="@+id/song_lyric"
+        app:layout_constraintTop_toBottomOf="@id/song_lyric" />
+
+    <ImageView
+        android:id="@+id/heart_red"
+
+        app:srcCompat="@drawable/ic_heart_red"
+        android:visibility="invisible"
+
+        android:layout_width="@dimen/album_image_card_view_size"
+        android:layout_height="@dimen/album_image_card_view_size"
+
+        android:padding="@dimen/regular_subtitle__size"
+        app:layout_constraintVertical_bias="0.094"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/song_lyric"
+        app:layout_constraintStart_toStartOf="@+id/song_lyric"
+        app:layout_constraintTop_toBottomOf="@id/song_lyric" />
+</androidx.constraintlayout.widget.ConstraintLayout>

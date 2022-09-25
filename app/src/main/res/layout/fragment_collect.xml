@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exported="true"
+    android:id="@+id/fragment_collect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        android:id="@+id/map"
+
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/enable_collection_screen"
+
+        layout="@layout/fragment_collect_enable_location"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
